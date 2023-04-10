@@ -1,6 +1,6 @@
 from django.db import models
 
-# Crie seus modelos aqui your models here.
+# Crie seus modelos aqui.
 class Funcionario(models.Model):
     nome = models.CharField(
     max_length=255,
